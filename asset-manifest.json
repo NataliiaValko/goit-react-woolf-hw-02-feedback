@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.9c54b43d.css",
-    "main.js": "/react-homework-template/static/js/main.6fa0ab99.js",
-    "static/media/Ebq13aBXgAAZK_Q.jpg": "/react-homework-template/static/media/Ebq13aBXgAAZK_Q.3de1611740237aea0039.jpg",
-    "index.html": "/react-homework-template/index.html",
-    "main.9c54b43d.css.map": "/react-homework-template/static/css/main.9c54b43d.css.map",
-    "main.6fa0ab99.js.map": "/react-homework-template/static/js/main.6fa0ab99.js.map"
+    "main.css": "/goit-react-woolf-hw-02-feedback/static/css/main.7b1544d7.css",
+    "main.js": "/goit-react-woolf-hw-02-feedback/static/js/main.6fa0ab99.js",
+    "static/media/Ebq13aBXgAAZK_Q.jpg": "/goit-react-woolf-hw-02-feedback/static/media/Ebq13aBXgAAZK_Q.3de1611740237aea0039.jpg",
+    "index.html": "/goit-react-woolf-hw-02-feedback/index.html",
+    "main.7b1544d7.css.map": "/goit-react-woolf-hw-02-feedback/static/css/main.7b1544d7.css.map",
+    "main.6fa0ab99.js.map": "/goit-react-woolf-hw-02-feedback/static/js/main.6fa0ab99.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c54b43d.css",
+    "static/css/main.7b1544d7.css",
     "static/js/main.6fa0ab99.js"
   ]
 }
