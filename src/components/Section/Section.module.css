@@ -1,0 +1,13 @@
+.section {
+  padding-top: 80px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: rgb(72, 133, 72);
+  margin-top: 0;
+  margin-bottom: 50px;
+}

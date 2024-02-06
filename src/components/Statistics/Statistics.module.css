@@ -1,0 +1,85 @@
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(102, 131, 102);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.details {
+  composes: result;
+}
+
+.common {
+  composes: result;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.text {
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  gap: 32px;
+}
+
+.good {
+  composes: details;
+  background-color: rgb(89, 167, 89);
+}
+
+.neutral {
+  composes: details;
+  background-color: rgb(253, 210, 91);
+}
+
+.bad {
+  composes: details;
+  background-color: rgb(221, 54, 54);
+}
+
+.total {
+  composes: common;
+  background-color: rgb(115, 115, 247);
+}
+
+.positivePercentage {
+  composes: common;
+  background-color: rgb(169, 45, 207);
+}
